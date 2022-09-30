@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'Opensans',
                   fontSize: 20,
                   fontWeight: FontWeight.bold))),
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(),
     );
   }
